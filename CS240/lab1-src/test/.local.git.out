@@ -1,0 +1,46 @@
+[master ccee180] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 18 insertions(+)
+ create mode 100644 test/.local.git.out
+ create mode 100644 test/.local.total.out
+ create mode 100644 test/total.out
+[master 8189e8d] 20 of 100
+ 9 files changed, 80 insertions(+), 12 deletions(-)
+ create mode 100755 a.out
+ create mode 100755 exp
+ create mode 100755 hello
+ create mode 100644 hello.c
+ create mode 100755 high-low
+ rewrite high-low.c (97%)
+[master acebdaa] 20 of 100
+ 3 files changed, 17 insertions(+)
+[master a65a92f] 20 of 100
+ 4 files changed, 12 insertions(+), 1 deletion(-)
+[master 475323a] 20 of 100
+ 3 files changed, 12 insertions(+), 1 deletion(-)
+[master 335d293] 20 of 100
+ 4 files changed, 13 insertions(+), 2 deletions(-)
+[master 96abc4c] 20 of 100
+ 4 files changed, 16 insertions(+)
+[master 4529e1f] 20 of 100
+ 4 files changed, 13 insertions(+), 2 deletions(-)
+[master 4cec183] 20 of 100
+ 2 files changed, 11 insertions(+)
+[master dc67bb6] 40 of 100
+ 5 files changed, 14 insertions(+), 3 deletions(-)
+[master e3b66a5] 100 of 100
+ 5 files changed, 16 insertions(+), 5 deletions(-)
+[master b1eb307] 100 of 100
+ 3 files changed, 63 insertions(+), 52 deletions(-)
+ rewrite high-low.c (98%)

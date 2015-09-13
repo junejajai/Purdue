@@ -1,0 +1,100 @@
+
+#include <stdlib.h>
+#include "mystring.h"
+
+// Type "man string" to see what every function expects.
+
+int mystrlen(char * s) {
+int c = 0;
+int i; 
+for(i = 0; s[i]!='\0';i++)
+{
+c++;
+}
+return c;
+}
+
+char * mystrcpy(char * dest, char * src) {
+
+int i;
+if(mystrlen(src)==1){return src;}
+for( i = 0; src[i]!='\0';i++ )
+{
+dest[i] = src[i];
+
+}
+dest[i]= '\0';
+return dest;
+}
+
+char * mystrcat(char * dest, char * src) {
+int count = 0,count2 = 0;
+int i = mystrlen(dest);
+int j;
+      dest[i] = "";
+      for ( j =0;src[j] !='\0'; j++ )
+      {
+      dest[i+j] = src[j];
+      }
+      dest[i+j]='\0';
+      return dest;
+}
+int mystrcmp(char * s1, char * s2) {
+	int l1 = 0;
+	int l2 = 0;
+	int i , j;
+	   for(i = 0; s1[i]!='\0';i++)
+	    {
+	     l1++;
+	    }
+	    for(i = 0; s2[i]!='\0';i++)
+	        {
+                 l2++;  
+		}
+        if(l1>l2)
+	{
+	return 1;
+	}
+
+	if(l1==l2)
+	{
+	return 0;
+	}
+	if(l1<l2)
+	{
+         return -1;
+	}
+	
+}
+
+char * mystrstr(char * hay, char * needle) {
+int i;
+int j;
+char * holder;
+for(i=0;i<mystrlen(hay);i++)
+ {
+  j=0;
+  while(hay[i+j]==needle[j]||j >= mystrlen(needle))
+  {
+   holder[j]=hay[i+j];
+   j++;
+   if(hay[i+j]=='\0')
+    {
+    holder[j]= '\0';
+    return holder;
+    }
+   }
+  }
+
+return NULL;
+}
+
+char * mystrdup(char * s) {
+	return NULL;
+}
+
+char * mymemcpy(char * dest, char * src, int n)
+{
+	return NULL;
+}
+
